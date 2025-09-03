@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="main.js"></script>
+    <link rel = "stylesheet" href="style.css">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+
+    <title>PairWizard</title>
+</head>
+<body>
+    <div class = "title">
+        <img src="logo.png" alt="Logo" class="logo">
+        <h2 class = "title_2">PairWizard</h2>
+        <button id = "gitbutton" type="button" onclick="window.location.href='https://github.com/Ebru-Ilbegi/pairwizard'">
+            <img src="git.png" width="33px">
+        </button>
+    </div>
+<div class = "div_container">
+<div class="container">
+    <h2>Parameter Input</h2>
+    <p>Write the parameters in the following format:</p>
+    
+        <ul>
+        <li>Programming Language  = Python ,C# ;</li> 
+        <li>Algorithm = Bubble Sort, Quick Sort;</li> 
+        <li>Database = MySQL, MongoDB</li>
+    </ul>
+    
+    <textarea placeholder="Write parameters here..."></textarea>
+    <br>
+
+    <button type="submit">Generate Combinations</button>
+</div>
+
+<div class="container2">
+    <h2>Combinations</h2>
+
+<textarea id ="output" readonly></textarea>
+<br>
+<button type="submit">Get Combinations</button>
+</div>
+</div>
+<hr>
+<div class="container3">
+    <h2><i>What is Pairwise Testing in Software Testing?</i></h2>
+    <p style = "font-size: 20px;">Pairwise Testing is a type of software testing in which permutation and combination method is used to test the software.<br> 
+        Pairwise testing is used to test all the possible discrete combinations of the parameters involved. </p>
+    <p style = "font-size: 20px;">Pairwise testing is a P&C based method, in which to test a system or an application, for each pair of input parameters of a system, <br>
+        all possible discrete combinations of the parameters are tested. By using the conventional or exhaustive testing approach it may be hard to test the system but <br>
+        by using the permutation and combination method it can be easily done.
+
+    </p>   
+
+</div>
+<div class="container3">
+    <h2><i>What is Combinatorial Testing in Software Testing?</i></h2>
+    <p style = "font-size: 20px;">Combinatorial testing is a testing method that uses multiple combinations of input parameters to perform testing for a software application. <br>
+       The main goal of combinatorial testing is to make sure that the software product can handle different combinations of test data as input parameters and configuration options. </p>
+    <p style = "font-size: 20px;">Testers use combinatorial testing based on the idea that defects in a software application can occur by specific combinations of input parameters rather than by isolated inputs.<br>
+        By focusing on the input combinations like that, the testers can provide effective test coverage while reducing the number of test cases written. </p>   
+
+</div>
+<hr>
+
+
+<footer>
+    
+    <p id = "info"><i><img src="linkedln.png" width="20px">&nbsp;&nbsp; Follow us from the Linkedln : <a href="https://www.linkedin.com/in/ebruilbegi/">Ebru</a> & <a href="https://www.linkedin.com/in/s%C4%B1la-temel-53b1ab299/">Sıla</a></i></p>
+
+</footer>
+
+</body>
+</html>
